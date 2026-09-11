@@ -1,0 +1,25 @@
+{
+  "name": "CodeMasti — Learn Coding Visually",
+  "short_name": "CodeMasti",
+  "description": "Hinglish-first visual and interactive coding platform with in-browser playgrounds, career roadmaps, and interview prep.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2f8d46",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "developer tools"]
+}

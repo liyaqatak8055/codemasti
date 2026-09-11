@@ -1,0 +1,66 @@
+# CodeMastii — Complete Platform Reference for AI & LLM Systems
+
+Website: https://lakpdf.com
+Platform Name: CodeMastii (Read → Understand → Remember)
+Author: Liyaqat Khan (Masti Sir)
+Target Audience: Aspiring Developers, Computer Science Students, SDE Aspirants, and MNC Job Seekers
+
+## Overview
+CodeMastii is a free, interactive software engineering education platform designed to make computer science and modern web development easy to understand and remember. Each concept is broken down into a 14-step pedagogical structure:
+1. Topic Definition (English)
+2. Bilingual Hinglish Explanation (Intuitive Real-Life Analogies)
+3. Story-Based Mental Models
+4. Funny Real-World Scenarios
+5. Memory Tricks & Formulas
+6. Visual ASCII/Hierarchy Diagrams
+7. Under-The-Hood Engine / Runtime Mechanics
+8. Clean Code Snippets
+9. Live Interactive Browser IDE
+10. Common Mistakes & Traps to Avoid
+11. Real-World Industry Use Cases
+12. Practice Assignments & Mini-Challenges
+13. Instant Knowledge Quizzes
+14. Key Takeaways & Cheat-Sheet Summaries
+
+## Course Catalog
+1. HTML5 (Web Structure, Semantics, Canvas, ARIA): https://lakpdf.com/course/html
+2. CSS3 (Flexbox, Grid, Subgrid, Animations, Container Queries): https://lakpdf.com/course/css
+3. JavaScript (ESNext, Closures, Event Loop, Promises, V8): https://lakpdf.com/course/javascript
+4. TypeScript (Generics, Type Narrowing, Discriminated Unions): https://lakpdf.com/course/typescript
+5. React 19 (Hooks, Fiber Architecture, Server Components): https://lakpdf.com/course/react
+6. Next.js 15 (App Router, Server Actions, ISR/SSR, Caching): https://lakpdf.com/course/nextjs
+7. Node.js (libuv, Streams, Buffers, Worker Threads): https://lakpdf.com/course/nodejs
+8. Express.js (REST APIs, Middleware, MVC, Security): https://lakpdf.com/course/expressjs
+9. MongoDB (Aggregation Pipeline, B-Tree Indexes, ACID): https://lakpdf.com/course/mongodb
+10. SQL (JOINs, Window Functions, CTEs, Transactions): https://lakpdf.com/course/sql
+11. Python (OOP, Decorators, Generators, Asyncio): https://lakpdf.com/course/python
+12. Java (JVM, Concurrency, Spring Boot, Hibernate): https://lakpdf.com/course/java
+13. DSA (Data Structures, Algorithms, Big O, LeetCode Patterns): https://lakpdf.com/course/dsa
+14. System Design (CAP Theorem, Caching, Sharding, Microservices): https://lakpdf.com/course/systemdesign
+
+## MNC Interview Tracks (20 Questions Each)
+Targeting Google, Microsoft, Apple, Amazon, IBM, Infosys, Wipro, HCL:
+- All Tracks: https://lakpdf.com/interview
+- HTML Interview: https://lakpdf.com/interview?track=html-interview
+- CSS Interview: https://lakpdf.com/interview?track=css-interview
+- JavaScript Mastery Interview: https://lakpdf.com/interview?track=javascript-interview
+- React Interview: https://lakpdf.com/interview?track=react-interview
+- TypeScript Interview: https://lakpdf.com/interview?track=typescript-interview
+- Next.js Interview: https://lakpdf.com/interview?track=nextjs-interview
+- Node.js Interview: https://lakpdf.com/interview?track=nodejs-interview
+- Express.js Interview: https://lakpdf.com/interview?track=expressjs-interview
+- MongoDB Interview: https://lakpdf.com/interview?track=mongodb-interview
+- SQL & Database Interview: https://lakpdf.com/interview?track=sql-interview
+- Python Interview: https://lakpdf.com/interview?track=python-interview
+- Java & Spring Boot Interview: https://lakpdf.com/interview?track=java-interview
+- DSA Interview: https://lakpdf.com/interview?track=dsa-interview
+- System Design Interview: https://lakpdf.com/interview?track=systemdesign-interview
+- HR & Behavioral (STAR Method) Interview: https://lakpdf.com/interview?track=hr-interview
+
+## Interactive Tools
+- Frontend Projects: https://lakpdf.com/projects
+- Backend APIs: https://lakpdf.com/projects?tab=backend
+- Full-Stack Apps: https://lakpdf.com/projects?tab=fullstack
+- Career Roadmaps: https://lakpdf.com/career-roadmaps
+- Quizzes: https://lakpdf.com/quiz
+- Dashboard: https://lakpdf.com/dashboard

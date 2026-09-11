@@ -1,0 +1,52 @@
+# CodeMastii — Interactive Coding & MNC Interview Preparation Platform
+
+> CodeMastii is a free, comprehensive interactive learning platform for Web Development, Full-Stack Software Engineering, Data Structures & Algorithms (DSA), System Design, and MNC Interview Preparation. Master coding through bilingual explanations (English & Hinglish), interactive live browsers, story-based mental models, and real-world MNC interview question banks.
+
+## Core Courses & Curriculum
+
+- [All Courses Catalog](https://lakpdf.com/courses): Explore comprehensive courses in Frontend, Backend, Full-Stack, Database, and Programming languages.
+- [HTML5 Mastery Course](https://lakpdf.com/course/html): Semantic web architecture, accessibility (ARIA), canvas, modern forms, SEO foundations, and responsive structuring.
+- [CSS3 & Modern Styling](https://lakpdf.com/course/css): Modern CSS Grid, Flexbox, Container Queries, GPU animations, CSS variables, and layout patterns.
+- [JavaScript Deep Dive](https://lakpdf.com/course/javascript): Closures, Event Loop, Promises, Async/Await, Prototypes, ESNext features, and V8 engine mechanics.
+- [React 19 & Next.js](https://lakpdf.com/course/react): Hooks, Fiber architecture, Server Components (RSC), Server Actions, state management, and modern component design.
+- [TypeScript Essentials & Advanced](https://lakpdf.com/course/typescript): Generics, Discriminated Unions, Utility Types, Type Narrowing, and production typing patterns.
+- [Node.js & Runtime Architecture](https://lakpdf.com/course/nodejs): libuv worker pool, Event Loop 6 phases, Buffers, Streams, Clustering, and asynchronous I/O.
+- [Express.js Backend Engineering](https://lakpdf.com/course/expressjs): RESTful API design, Middleware pipelines, Centralized Error Handling, Security best practices, and Authentication.
+- [MongoDB & NoSQL Databases](https://lakpdf.com/course/mongodb): Aggregation pipelines, B-Tree indexing, replication sets, sharding, and Mongoose schema modeling.
+- [SQL & Relational Databases](https://lakpdf.com/course/sql): Complex JOINs, Window Functions, Common Table Expressions (CTEs), ACID transactions, and indexing strategies.
+- [Python for Developers](https://lakpdf.com/course/python): Object-Oriented Programming, Decorators, Generators, Asyncio, Memory management, and standard libraries.
+- [Java & Spring Boot](https://lakpdf.com/course/java): JVM internals, multithreading, concurrency, Spring IoC/DI, Hibernate ORM, and enterprise microservices.
+- [Data Structures & Algorithms (DSA)](https://lakpdf.com/course/dsa): Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Dynamic Programming, and Big O Complexity analysis.
+- [System Design & Distributed Architecture](https://lakpdf.com/course/systemdesign): High-availability systems, CAP theorem, Distributed Caching (Redis), Rate Limiters, Message Queues (Kafka), and Microservices.
+
+## MNC Interview Preparation Tracks
+
+- [Complete MNC Interview Preparation](https://lakpdf.com/interview): Dedicated course-wise interview tracks with 20+ in-depth technical questions, model answers, traps to avoid, and a 2-minute mock practice simulator targeting Google, Microsoft, Apple, Amazon, IBM, Infosys, Wipro, and HCL.
+- [HTML Interview Track](https://lakpdf.com/interview?track=html-interview): 20 top interview questions on semantic HTML, DOM parsing, Web Workers, and Web Vitals.
+- [CSS Interview Track](https://lakpdf.com/interview?track=css-interview): 20 advanced interview questions on Specificity, Flexbox vs Grid, BFC, Subgrid, and rendering pipeline.
+- [JavaScript Interview Track](https://lakpdf.com/interview?track=javascript-interview): 20 deep interview questions on Event Loop microtasks, Closures, Garbage Collection, and Debounce/Throttle.
+- [React Interview Track](https://lakpdf.com/interview?track=react-interview): 20 senior interview questions on React Fiber, Hooks internals, Server Components, and reconciliation.
+- [Node.js & Express Interview Track](https://lakpdf.com/interview?track=nodejs-interview): 20 backend interview questions on Streams, Event loop phases, Worker Threads, and Error handling.
+- [Database (SQL & MongoDB) Interview Track](https://lakpdf.com/interview?track=sql-interview): 20 database interview questions on Indexing, ACID, Sharding, and Window functions.
+- [DSA & Algorithms Interview Track](https://lakpdf.com/interview?track=dsa-interview): 20 algorithmic interview questions on Sliding Window, Two Pointers, Graphs, and Dynamic Programming.
+- [System Design Interview Track](https://lakpdf.com/interview?track=systemdesign-interview): 20 architecture interview questions on Caching, Consistent Hashing, Sharding, and Load Balancing.
+- [HR & Behavioral (STAR Method) Interview Track](https://lakpdf.com/interview?track=hr-interview): 20 behavioral questions with STAR framework answers, conflict resolution, and CTC negotiations.
+
+## Interactive Projects & Hands-On Tools
+
+- [Frontend Projects Hub](https://lakpdf.com/projects): Production-ready Frontend projects with file directory trees, editable code viewer, and in-browser interactive execution.
+- [Backend APIs Projects Hub](https://lakpdf.com/projects?tab=backend): Production REST API architectures with route handlers, controllers, models, and real-time backend execution outputs.
+- [Full-Stack Applications Hub](https://lakpdf.com/projects?tab=fullstack): Complete Full-Stack applications demonstrating decoupled Frontend UI and Backend server endpoints.
+- [Interactive Coding Playground](https://lakpdf.com/ide): Live browser-based IDE with real-time console, syntax highlighting, and live HTML/CSS/JS preview.
+
+## Career Roadmaps & Mentorship
+
+- [Career Roadmaps Guide](https://lakpdf.com/career-roadmaps): Step-by-step career blueprints for Frontend Developer, Backend Developer, Full-Stack Engineer, and Software Development Engineer (SDE).
+- [Interactive Quizzes & Self-Assessment](https://lakpdf.com/quiz): Topic-wise technical quizzes with instant grading, explanations, and XP rewards.
+- [Student Dashboard & Profile](https://lakpdf.com/dashboard): Track learning progress, streak counters, completed lessons, earned badges, and claimable certificates.
+
+## Optional & Additional Resources
+
+- [Full LLM Context Reference](https://lakpdf.com/llms-full.txt): Comprehensive plain-text documentation and complete platform index for AI crawlers and LLMs.
+- [Sitemap XML](https://lakpdf.com/sitemap.xml): Machine-readable XML sitemap indexing all courses, lessons, and interview tracks.
+- [About CodeMastii](https://lakpdf.com/about): Mission, pedagogical philosophy (Read → Understand → Remember), and founder story.

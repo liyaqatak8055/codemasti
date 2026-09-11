@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>CodeMasti Technology Stack Report</title>
+  <style>
+    @page { margin: 24mm 18mm; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #111827;
+      background: #ffffff;
+      font: 13px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Arial, sans-serif;
+    }
+    h1, h2, h3 { color: #111827; line-height: 1.18; margin: 0 0 10px; }
+    h1 { font-size: 34px; letter-spacing: -0.02em; }
+    h2 { font-size: 21px; margin-top: 28px; padding-bottom: 8px; border-bottom: 2px solid #e5e7eb; }
+    h3 { font-size: 16px; margin-top: 18px; }
+    p { margin: 0 0 10px; color: #374151; }
+    .cover {
+      padding: 28px;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      background: linear-gradient(180deg, #f8faf8 0%, #ffffff 100%);
+      margin-bottom: 24px;
+    }
+    .brand { color: #16a34a; font-weight: 800; letter-spacing: 0.04em; text-transform: uppercase; }
+    .subtitle { font-size: 15px; color: #6b7280; max-width: 720px; }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-top: 22px;
+    }
+    .meta div {
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 12px;
+      background: #ffffff;
+    }
+    .meta strong { display: block; font-size: 18px; color: #16a34a; }
+    .meta span { color: #6b7280; font-size: 11px; text-transform: uppercase; font-weight: 700; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 18px;
+      page-break-inside: avoid;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 8px 9px;
+      vertical-align: top;
+      text-align: left;
+    }
+    th {
+      background: #f8faf8;
+      color: #14532d;
+      font-weight: 800;
+    }
+    td { color: #374151; }
+    .tag {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: #dcfce7;
+      color: #166534;
+      font-size: 11px;
+      font-weight: 800;
+    }
+    .note {
+      border-left: 4px solid #22c55e;
+      background: #f8faf8;
+      padding: 12px 14px;
+      border-radius: 10px;
+      color: #374151;
+      margin: 12px 0 18px;
+    }
+    pre {
+      white-space: pre-wrap;
+      border: 1px solid #e5e7eb;
+      background: #f8faf8;
+      border-radius: 12px;
+      padding: 14px;
+      color: #111827;
+      font-size: 12px;
+      line-height: 1.45;
+      page-break-inside: avoid;
+    }
+    ul { margin: 8px 0 16px 20px; padding: 0; }
+    li { margin: 4px 0; }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .card {
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 14px;
+      background: #ffffff;
+      page-break-inside: avoid;
+    }
+    .footer {
+      margin-top: 28px;
+      padding-top: 12px;
+      border-top: 1px solid #e5e7eb;
+      color: #6b7280;
+      font-size: 11px;
+    }
+  </style>
+</head>
+<body>
+  <section class="cover">
+    <div class="brand">CodeMasti</div>
+    <h1>Technology Stack Report</h1>
+    <p class="subtitle">A complete analysis of the project codebase, including frontend, backend, database, authentication, APIs, animations, build tools, folder responsibilities, and architecture.</p>
+    <div class="meta">
+      <div><strong>55</strong><span>Files Scanned</span></div>
+      <div><strong>39,830</strong><span>Approx Lines</span></div>
+      <div><strong>React + Vite</strong><span>Frontend</span></div>
+      <div><strong>Express + JSON</strong><span>Backend</span></div>
+    </div>
+  </section>
+
+  <h2>Project Snapshot</h2>
+  <table>
+    <tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Project</td><td>Learn with Coding / CodeMasti</td></tr>
+    <tr><td>Architecture</td><td>100% Frontend-Only React + Vite Single Page Application</td></tr>
+    <tr><td>Main frontend folder</td><td>src/</td></tr>
+    <tr><td>State & Persistence</td><td>Browser localStorage (src/utils/storage.js)</td></tr>
+    <tr><td>Backend</td><td>None (Fully client-side static deployment)</td></tr>
+    <tr><td>Package manager</td><td>npm</td></tr>
+    <tr><td>Build tool</td><td>Vite 8</td></tr>
+  </table>
+
+  <h2>Languages Detected</h2>
+  <table>
+    <tr><th>Language / Format</th><th>Files</th><th>Usage</th><th>Used In</th><th>Purpose</th></tr>
+    <tr><td>JavaScript</td><td>32</td><td>58.2% files, 14.9% lines</td><td>server.js, src/courseData/*.js, src/utils/*.js, config files</td><td>Backend, data modules, helpers, configs</td></tr>
+    <tr><td>JSX / React JavaScript</td><td>14</td><td>25.5% files, 18.6% lines</td><td>src/App.jsx, src/pages/*.jsx, src/components/*.jsx</td><td>UI components and pages</td></tr>
+    <tr><td>CSS</td><td>1</td><td>1.8% files, 39.9% lines</td><td>src/styles.css</td><td>Main custom styling system</td></tr>
+    <tr><td>HTML</td><td>1</td><td>1.8% files</td><td>index.html</td><td>Vite app entry shell</td></tr>
+    <tr><td>JSON</td><td>3</td><td>5.5% files, 10.6% lines</td><td>package.json, package-lock.json, db.json</td><td>Dependencies, lockfile, local database</td></tr>
+    <tr><td>XML</td><td>1</td><td>1.8% files</td><td>public/sitemap.xml</td><td>SEO sitemap</td></tr>
+    <tr><td>TXT</td><td>1</td><td>1.8% files</td><td>public/robots.txt</td><td>Search engine crawling rules</td></tr>
+    <tr><td>PNG Asset</td><td>1</td><td>1.8% files</td><td>public/assets/course-images/python-roadmap.png</td><td>Course image asset</td></tr>
+    <tr><td>Markdown / TypeScript / Shell</td><td>0</td><td>0%</td><td>Not detected as authored source</td><td>Not used in project source</td></tr>
+  </table>
+
+  <h2>Core Stack</h2>
+  <table>
+    <tr><th>Technology</th><th>Version</th><th>Purpose</th><th>Used In</th><th>Importance</th></tr>
+    <tr><td>React</td><td>19.2.7</td><td>Frontend UI framework</td><td>src/main.jsx, src/App.jsx, pages, components</td><td><span class="tag">Critical</span></td></tr>
+    <tr><td>React DOM</td><td>19.2.7</td><td>Mounts React app to browser DOM</td><td>src/main.jsx</td><td><span class="tag">Critical</span></td></tr>
+    <tr><td>Vite</td><td>8.1.0</td><td>Dev server and production build</td><td>vite.config.js, package.json</td><td><span class="tag">Critical</span></td></tr>
+    <tr><td>Express.js</td><td>5.2.1</td><td>Backend API server</td><td>server.js</td><td><span class="tag">Critical</span></td></tr>
+    <tr><td>Node.js</td><td>Not pinned</td><td>Backend runtime and tooling</td><td>server.js, scripts</td><td><span class="tag">Critical</span></td></tr>
+    <tr><td>JSON file database</td><td>Local file</td><td>Lightweight persistence</td><td>db.json, server.js</td><td><span class="tag">Critical</span></td></tr>
+    <tr><td>CSS</td><td>Native</td><td>Main visual system</td><td>src/styles.css</td><td><span class="tag">Critical</span></td></tr>
+    <tr><td>Framer Motion</td><td>12.42.0</td><td>Animations and transitions</td><td>App.jsx, pages, widgets</td><td>High</td></tr>
+    <tr><td>Lucide React</td><td>1.21.0</td><td>Icon library</td><td>App.jsx, pages, components</td><td>High</td></tr>
+    <tr><td>React Router DOM</td><td>7.18.0</td><td>Browser routing utilities</td><td>src/App.jsx</td><td>Medium</td></tr>
+    <tr><td>bcryptjs</td><td>3.0.3</td><td>Password hashing</td><td>server.js</td><td>High</td></tr>
+    <tr><td>jsonwebtoken</td><td>9.0.3</td><td>JWT auth tokens</td><td>server.js</td><td>High</td></tr>
+    <tr><td>cors</td><td>2.8.6</td><td>Cross-origin API support</td><td>server.js</td><td>Medium</td></tr>
+    <tr><td>dotenv</td><td>17.4.2</td><td>Environment variable loading</td><td>server.js, .env</td><td>Medium</td></tr>
+    <tr><td>Tailwind CSS</td><td>4.3.1</td><td>Configured utility CSS framework</td><td>tailwind.config.js, src/styles.css</td><td>Low / configured</td></tr>
+    <tr><td>PostCSS + Autoprefixer</td><td>8.5.15 / 10.5.2</td><td>CSS processing and vendor prefixes</td><td>postcss.config.js</td><td>Medium</td></tr>
+    <tr><td>React Markdown</td><td>10.1.0</td><td>Markdown rendering dependency</td><td>package.json</td><td>Low / not actively imported</td></tr>
+    <tr><td>concurrently</td><td>10.0.3</td><td>Runs frontend/backend together</td><td>package.json start script</td><td>Medium</td></tr>
+  </table>
+
+  <h2>Frontend Stack</h2>
+  <table>
+    <tr><th>Technology</th><th>Purpose</th><th>Files</th></tr>
+    <tr><td>React</td><td>Component-based UI</td><td>src/App.jsx, src/pages/*.jsx, src/components/*.jsx</td></tr>
+    <tr><td>JSX</td><td>React markup</td><td>All .jsx files</td></tr>
+    <tr><td>CSS</td><td>Custom responsive design system</td><td>src/styles.css</td></tr>
+    <tr><td>Vite</td><td>Frontend dev/build tooling</td><td>vite.config.js</td></tr>
+    <tr><td>Framer Motion</td><td>Page/component animations</td><td>App.jsx, pages, widgets</td></tr>
+    <tr><td>Lucide React</td><td>Icons</td><td>App.jsx, CourseViewerPage.jsx, LandingPage.jsx, DashboardPage.jsx</td></tr>
+    <tr><td>React Router DOM</td><td>Router wrapper/navigation utilities</td><td>src/App.jsx</td></tr>
+    <tr><td>localStorage</td><td>Client persistence</td><td>Token, theme, notes, bookmarks, visited lessons</td></tr>
+    <tr><td>Tailwind CSS</td><td>Configured, mostly not used as utility classes</td><td>tailwind.config.js, src/styles.css</td></tr>
+  </table>
+
+  <h2>Backend Stack</h2>
+  <table>
+    <tr><th>Technology</th><th>Purpose</th><th>Files</th></tr>
+    <tr><td>Node.js</td><td>Backend runtime</td><td>server.js</td></tr>
+    <tr><td>Express.js</td><td>REST API server</td><td>server.js</td></tr>
+    <tr><td>CORS</td><td>Allows frontend API requests</td><td>server.js</td></tr>
+    <tr><td>dotenv</td><td>Loads environment variables</td><td>server.js, .env</td></tr>
+    <tr><td>bcryptjs</td><td>Password hashing</td><td>server.js</td></tr>
+    <tr><td>jsonwebtoken</td><td>JWT token creation/verification</td><td>server.js</td></tr>
+    <tr><td>Native fs/path</td><td>JSON database read/write</td><td>server.js</td></tr>
+  </table>
+
+  <h2>Database Technologies</h2>
+  <table>
+    <tr><th>Technology</th><th>Purpose</th><th>Used In</th><th>Notes</th></tr>
+    <tr><td>JSON file database</td><td>Stores users, progress, quizzes, projects, discussions, leaderboard</td><td>db.json, server.js</td><td>Current active database</td></tr>
+    <tr><td>MongoDB / MySQL / PostgreSQL</td><td>Course content only</td><td>src/courseData/mongodb.js, mysql.js, postgresql.js</td><td>Educational lessons, not connected runtime DB</td></tr>
+  </table>
+  <div class="note">No active Mongoose, Firebase, Prisma, SQL client, MongoDB driver, or PostgreSQL driver is installed.</div>
+
+  <h2>Authentication System</h2>
+  <table>
+    <tr><th>Feature</th><th>Technology</th><th>Files</th></tr>
+    <tr><td>Email/password register</td><td>Express + bcryptjs + JWT</td><td>server.js</td></tr>
+    <tr><td>Login</td><td>bcrypt password compare + JWT issue</td><td>server.js</td></tr>
+    <tr><td>JWT protected routes</td><td>Authorization: Bearer token middleware</td><td>server.js, App.jsx, ProfilePage.jsx, CourseViewerPage.jsx</td></tr>
+    <tr><td>Token storage</td><td>Browser localStorage</td><td>src/App.jsx</td></tr>
+    <tr><td>OTP login/register</td><td>In-memory mock OTP store</td><td>server.js, src/App.jsx</td></tr>
+    <tr><td>Google auth</td><td>Simulated endpoint, not real OAuth provider</td><td>server.js, src/App.jsx</td></tr>
+    <tr><td>Password reset</td><td>Mock reset flow</td><td>server.js, src/App.jsx</td></tr>
+  </table>
+  <div class="note">OTP and Google auth are demo/simulated. Production would need email service and real OAuth verification.</div>
+
+  <h2>API Integrations</h2>
+  <table>
+    <tr><th>Area</th><th>Endpoints</th><th>Frontend Feature</th></tr>
+    <tr><td>Auth</td><td>/api/auth/register, /api/auth/login, /api/auth/send-otp, /api/auth/verify-otp, /api/auth/google, /api/auth/forgot-password, /api/auth/reset-password</td><td>Auth modal/login/signup</td></tr>
+    <tr><td>User</td><td>/api/users/profile, /api/users/change-password, /api/users/streak</td><td>Profile, streak, user state</td></tr>
+    <tr><td>Courses</td><td>/api/courses/complete</td><td>Lesson completion, XP</td></tr>
+    <tr><td>Quizzes</td><td>/api/quizzes/attempts, /api/quizzes/attempts/me</td><td>Quiz attempt tracking</td></tr>
+    <tr><td>Projects</td><td>/api/projects, /api/projects/:projectId/submit</td><td>Project list/submissions</td></tr>
+    <tr><td>Leaderboard</td><td>/api/leaderboard</td><td>Dashboard leaderboard</td></tr>
+    <tr><td>Discussions</td><td>/api/discussions/:lessonId</td><td>Lesson comments</td></tr>
+    <tr><td>Mentor</td><td>/api/mentor/chat</td><td>AI mentor mock chat</td></tr>
+    <tr><td>Admin</td><td>/api/admin/analytics, /api/admin/users, /api/admin/content/*</td><td>Admin panel</td></tr>
+  </table>
+  <div class="note">No external API provider integration was detected. The mentor/chat logic is rule-based local backend code.</div>
+
+  <h2>Animation, UI, and State Management</h2>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Animation Libraries</h3>
+      <ul>
+        <li><strong>Framer Motion 12.42.0</strong>: motion components, transitions, AnimatePresence, useInView.</li>
+        <li><strong>CSS transitions/keyframes</strong>: hover effects, responsive polish, micro-interactions.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>UI Libraries</h3>
+      <ul>
+        <li><strong>Lucide React 1.21.0</strong>: SVG icon components.</li>
+        <li><strong>Custom UI components</strong>: Course cards, quiz blocks, modals, lesson widgets.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>State Management</h3>
+      <ul>
+        <li>React useState/useEffect for app state.</li>
+        <li>React Context for theme state.</li>
+        <li>localStorage for token, theme, notes, bookmarks, visits, mentor chat.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Not Detected</h3>
+      <ul>
+        <li>No Redux, Zustand, MobX, Recoil, or TanStack Query.</li>
+        <li>No Bootstrap, Material UI, Chakra, Ant Design, shadcn/ui, or Radix dependency.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h2>Build Tools and Package Manager</h2>
+  <table>
+    <tr><th>Tool</th><th>Version</th><th>Purpose</th></tr>
+    <tr><td>npm</td><td>Lockfile present</td><td>Package manager via package-lock.json</td></tr>
+    <tr><td>Vite</td><td>8.1.0</td><td>Dev server and production build</td></tr>
+    <tr><td>@vitejs/plugin-react</td><td>6.0.3</td><td>React support for Vite</td></tr>
+    <tr><td>PostCSS</td><td>8.5.15</td><td>CSS processing</td></tr>
+    <tr><td>Autoprefixer</td><td>10.5.2</td><td>Vendor prefixing</td></tr>
+    <tr><td>Tailwind CSS</td><td>4.3.1</td><td>Configured CSS utility engine</td></tr>
+    <tr><td>concurrently</td><td>10.0.3</td><td>Runs node server.js and vite together</td></tr>
+  </table>
+  <pre>{
+  "dev": "vite",
+  "server": "node server.js",
+  "start": "concurrently \"node server.js\" \"vite\"",
+  "generate:sitemap": "node scripts/generateSitemap.js",
+  "build": "npm run generate:sitemap && vite build",
+  "preview": "vite preview"
+}</pre>
+
+  <h2>Deployment Configuration</h2>
+  <table>
+    <tr><th>Item</th><th>Status</th></tr>
+    <tr><td>Production build output</td><td>dist/ generated by Vite</td></tr>
+    <tr><td>Sitemap generation</td><td>scripts/generateSitemap.js</td></tr>
+    <tr><td>Robots file</td><td>public/robots.txt</td></tr>
+    <tr><td>Vite proxy</td><td>/api proxied to http://localhost:5005 in dev</td></tr>
+    <tr><td>Vercel config</td><td>Not detected</td></tr>
+    <tr><td>Netlify config</td><td>Not detected</td></tr>
+    <tr><td>Docker config</td><td>Not detected</td></tr>
+    <tr><td>CI/CD config</td><td>Not detected</td></tr>
+  </table>
+
+  <h2>Folder Structure Responsibilities</h2>
+  <table>
+    <tr><th>Folder / File</th><th>Responsibility</th></tr>
+    <tr><td>src/</td><td>Main frontend source code</td></tr>
+    <tr><td>src/pages/</td><td>Route-level screens: landing, dashboard, courses, viewer, roadmap, profile</td></tr>
+    <tr><td>src/components/</td><td>Reusable UI blocks: search, quiz, lesson widgets, footer modals</td></tr>
+    <tr><td>src/context/</td><td>React Context providers, currently theme state</td></tr>
+    <tr><td>src/utils/</td><td>Helper utilities for SEO, lesson URLs, progress, validation</td></tr>
+    <tr><td>src/courseData/</td><td>Static course/lesson content modules</td></tr>
+    <tr><td>src/coursesData.js</td><td>Aggregates course data into one export</td></tr>
+    <tr><td>src/styles.css</td><td>Main global design system and responsive CSS</td></tr>
+    <tr><td>public/</td><td>Static public assets, robots, sitemap</td></tr>
+    <tr><td>scripts/</td><td>Build-time helper scripts</td></tr>
+    <tr><td>server.js</td><td>Express backend API</td></tr>
+    <tr><td>db.json</td><td>Local JSON database</td></tr>
+    <tr><td>index.html</td><td>Vite HTML entry</td></tr>
+  </table>
+
+  <h2>Architecture Summary</h2>
+  <pre>Browser
+  |
+  | React + Vite frontend
+  | src/App.jsx
+  | pages/components/course data/styles
+  |
+  | fetch('/api/...')
+  v
+Express backend
+  |
+  | Auth middleware
+  | bcrypt password hashing
+  | JWT token verification
+  |
+  v
+db.json
+  users
+  quizAttempts
+  projectSubmissions
+  discussions
+  adminContent
+  mockLeaderboard</pre>
+
+  <h2>Dependency Graph</h2>
+  <pre>index.html
+  -> src/main.jsx
+    -> src/App.jsx
+      -> ThemeProvider
+      -> Pages
+      -> Components
+      -> src/coursesData.js
+        -> src/courseData/*.js
+      -> src/utils/helpers.js
+      -> src/utils/seo.js
+
+Frontend API calls
+  -> /api/auth/*
+  -> /api/users/*
+  -> /api/courses/complete
+  -> /api/quizzes/attempts
+  -> /api/projects
+  -> /api/leaderboard
+  -> /api/discussions/*
+  -> /api/mentor/chat
+  -> /api/admin/*
+
+Express server
+  -> readDB() / writeDB()
+    -> db.json</pre>
+
+  <h2>Feature Dependencies</h2>
+  <table>
+    <tr><th>Feature</th><th>Depends On</th></tr>
+    <tr><td>Landing page</td><td>React, CSS, Framer Motion, Lucide, course data</td></tr>
+    <tr><td>Courses page</td><td>React, CSS, course data</td></tr>
+    <tr><td>Lesson viewer</td><td>React, CSS, Framer Motion, Lucide, course data, localStorage, API completion endpoints</td></tr>
+    <tr><td>Animated lesson widgets</td><td>Framer Motion, React</td></tr>
+    <tr><td>Quiz system</td><td>React, QuizBlock, /api/quizzes/attempts, JWT</td></tr>
+    <tr><td>XP/progress</td><td>Express, JWT, db.json, /api/courses/complete</td></tr>
+    <tr><td>Auth modal</td><td>React, Express auth routes, bcryptjs, jsonwebtoken, localStorage</td></tr>
+    <tr><td>Profile page</td><td>JWT, /api/users/profile, /api/users/change-password</td></tr>
+    <tr><td>Leaderboard</td><td>/api/leaderboard, db.json</td></tr>
+    <tr><td>Discussions/comments</td><td>/api/discussions/:lessonId, JWT for posting</td></tr>
+    <tr><td>Admin panel</td><td>JWT auth, hardcoded admin email check, /api/admin/*</td></tr>
+    <tr><td>SEO URLs/sitemap</td><td>src/utils/seo.js, scripts/generateSitemap.js, public/sitemap.xml</td></tr>
+    <tr><td>Theme toggle</td><td>React Context, localStorage, CSS variables/classes</td></tr>
+  </table>
+
+  <h2>Why These Technologies Were Chosen</h2>
+  <table>
+    <tr><th>Technology</th><th>Why It Fits This Project</th></tr>
+    <tr><td>React</td><td>Good for interactive learning UI, reusable components, lesson state, modals, dashboards.</td></tr>
+    <tr><td>Vite</td><td>Fast local development and simple build pipeline.</td></tr>
+    <tr><td>Express</td><td>Lightweight API backend suitable for auth/progress/project endpoints.</td></tr>
+    <tr><td>JSON file database</td><td>Simple local persistence for a demo/MVP without database setup.</td></tr>
+    <tr><td>Framer Motion</td><td>Smooth educational animations and UI transitions.</td></tr>
+    <tr><td>Lucide React</td><td>Consistent lightweight icon system.</td></tr>
+    <tr><td>bcryptjs</td><td>Easy password hashing without native build complexity.</td></tr>
+    <tr><td>JWT</td><td>Stateless auth that works cleanly with Bearer headers.</td></tr>
+    <tr><td>CSS</td><td>Full control over the custom CodeMasti visual design.</td></tr>
+    <tr><td>Tailwind/PostCSS</td><td>Configured CSS tooling, though custom CSS is currently dominant.</td></tr>
+  </table>
+
+  <h2>Usage Percentages By Area</h2>
+  <table>
+    <tr><th>Area</th><th>Estimated Share</th><th>Basis</th></tr>
+    <tr><td>Styling/CSS</td><td>~40%</td><td>Line count from src/styles.css</td></tr>
+    <tr><td>Frontend React/JSX</td><td>~19%</td><td>JSX line count</td></tr>
+    <tr><td>Course/content JS modules</td><td>~15%</td><td>JS line count, mostly course data and helpers</td></tr>
+    <tr><td>JSON/data/config</td><td>~11%</td><td>db.json, package files</td></tr>
+    <tr><td>Public SEO/assets</td><td>~16%</td><td>sitemap and image asset lines/size</td></tr>
+    <tr><td>Backend API</td><td>Small file share, high importance</td><td>server.js is one file but central</td></tr>
+  </table>
+
+  <h2>Final Summary</h2>
+  <table>
+    <tr><th>Summary Item</th><th>Count / Rating</th></tr>
+    <tr><td>Total major technologies detected</td><td>19</td></tr>
+    <tr><td>Frontend technologies count</td><td>9</td></tr>
+    <tr><td>Backend technologies count</td><td>7</td></tr>
+    <tr><td>Database technologies count</td><td>1 active</td></tr>
+    <tr><td>Third-party runtime libraries</td><td>10</td></tr>
+    <tr><td>Dev/build libraries</td><td>6</td></tr>
+    <tr><td>Auth mechanisms</td><td>4 flows: password, JWT, OTP mock, Google mock</td></tr>
+    <tr><td>External API integrations</td><td>0 confirmed</td></tr>
+    <tr><td>Estimated project complexity</td><td>Intermediate to Advanced</td></tr>
+    <tr><td>Classification</td><td>Advanced frontend + intermediate backend MVP</td></tr>
+  </table>
+
+  <div class="note">
+    Overall: CodeMasti is a sizeable React learning platform with rich custom UI, animated lesson experiences, static course content modules, and a lightweight Express backend for auth, progress, quizzes, projects, discussions, and admin features. The frontend is the largest and most mature part. The backend is practical for an MVP, but the JSON-file database and mock auth integrations would need upgrading for production scale.
+  </div>
+
+  <div class="footer">Generated for CodeMasti project from local codebase analysis.</div>
+</body>
+</html>

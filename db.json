@@ -1,0 +1,125 @@
+{
+  "users": [],
+  "adminContent": {
+    "courses": [],
+    "lessons": [],
+    "projects": [
+      {
+        "id": "portfolio-starter",
+        "title": "Personal Portfolio Website",
+        "track": "Frontend",
+        "level": "Beginner",
+        "xp": 80,
+        "status": "published",
+        "summary": "Apna responsive portfolio banao with hero, projects, contact section.",
+        "checklist": [
+          "Hero section with name",
+          "Projects grid",
+          "Contact links",
+          "Mobile responsive"
+        ],
+        "starterCode": "<section class=\"hero\">\\n  <h1>Your Name</h1>\\n  <p>Frontend Developer</p>\\n</section>"
+      },
+      {
+        "id": "todo-localstorage",
+        "title": "Todo App with LocalStorage",
+        "track": "JavaScript",
+        "level": "Beginner",
+        "xp": 100,
+        "status": "published",
+        "summary": "Tasks add/delete karo aur browser refresh ke baad bhi save rakho.",
+        "checklist": [
+          "Add task input",
+          "Delete task button",
+          "Save to localStorage",
+          "Empty state"
+        ],
+        "starterCode": "const tasks = JSON.parse(localStorage.getItem(\"tasks\") || \"[]\");"
+      },
+      {
+        "id": "express-notes-api",
+        "title": "Notes REST API",
+        "track": "Backend",
+        "level": "Intermediate",
+        "xp": 140,
+        "status": "published",
+        "summary": "Express se CRUD API banao: create, read, update, delete notes.",
+        "checklist": [
+          "GET /notes",
+          "POST /notes",
+          "PUT /notes/:id",
+          "DELETE /notes/:id"
+        ],
+        "starterCode": "app.get(\"/notes\", (req, res) => res.json(notes));"
+      }
+    ]
+  },
+  "quizAttempts": [],
+  "projectSubmissions": [],
+  "inquiries": [],
+  "feedback": [],
+  "discussions": {
+    "html-1": [
+      {
+        "id": "1",
+        "name": "Kabir",
+        "comment": "Bhai let aur const ka concept toh samajh aa gaya but HTML tags use karte time indentation bohot blocky lagta hai. Koi solution?",
+        "date": "2026-06-24T10:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "Meera",
+        "comment": "Indentation check karne ke liye VS Code extension \"Prettier\" use karo Kabir! Life easy ho jayegi.",
+        "date": "2026-06-24T11:30:00.000Z"
+      }
+    ],
+    "html-2": [
+      {
+        "id": "3",
+        "name": "Riya Sharma",
+        "comment": "Self-closing tags (jaise <img>, <br>) ke aage slash lagana standard hai kya?",
+        "date": "2026-06-25T08:15:00.000Z"
+      }
+    ],
+    "js-1": [
+      {
+        "id": "4",
+        "name": "Dev",
+        "comment": "let age = 20; to normal variables store karta hai, stack me structure hota hai or heap me reference? clear clarity is awesome!",
+        "date": "2026-06-25T12:00:00.000Z"
+      }
+    ]
+  },
+  "mockLeaderboard": [
+    {
+      "username": "Aarav",
+      "xp": 2380,
+      "streak": 19
+    },
+    {
+      "username": "Meera",
+      "xp": 2210,
+      "streak": 17
+    },
+    {
+      "username": "Kabir",
+      "xp": 1980,
+      "streak": 15
+    },
+    {
+      "username": "Riya",
+      "xp": 1320,
+      "streak": 6
+    },
+    {
+      "username": "Dev",
+      "xp": 980,
+      "streak": 4
+    },
+    {
+      "username": "Ankit",
+      "xp": 760,
+      "streak": 3
+    }
+  ]
+}
